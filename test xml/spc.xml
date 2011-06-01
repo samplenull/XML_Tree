@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<SPC arch="x86" sqmForceOptIn="false" checkForUpdate="true" sp="1" wave="1" osmajorVersion="6" osminorVersion="1" version="6.1.7601.17514" buildNumber="7601" buildQfeNumber="17514" buildBranch="15675" clientReadme="http://support.microsoft.com/kb/936330" serverReadme="http://support.microsoft.com/kb/936330" errorFwlink="http://go.microsoft.com/fwlink/?LinkID=122915" diskSpaceFwlink="http://go.microsoft.com/fwlink/?LinkID=122911" lite="true" clientDriverDirectory="atiilhag.inf_x86_neutral_7d512c02e72ebd25" checkSurFwlink="http://go.microsoft.com/fwlink/?LinkID=179456" clientEULA="" serverEULA="eula\server_license_addendum_1.rtf">
+	<PrerequisiteChecks>
+		<!-- This will be populated with the supported languages -->
+		<LPAllowedList fwlink="http://go.microsoft.com/fwlink/?LinkID=122910">
+			<LP locale="ar-sa"/><LP locale="bg-bg"/><LP locale="cs-cz"/><LP locale="da-dk"/><LP locale="de-de"/><LP locale="el-gr"/><LP locale="en-us"/><LP locale="es-es"/><LP locale="et-ee"/><LP locale="fi-fi"/><LP locale="fr-fr"/><LP locale="he-il"/><LP locale="hr-hr"/><LP locale="hu-hu"/><LP locale="it-it"/><LP locale="ja-jp"/><LP locale="ko-kr"/><LP locale="lt-lt"/><LP locale="lv-lv"/><LP locale="nb-no"/><LP locale="nl-nl"/><LP locale="pl-pl"/><LP locale="pt-br"/><LP locale="pt-pt"/><LP locale="ro-ro"/><LP locale="ru-ru"/><LP locale="sk-sk"/><LP locale="sl-si"/><LP locale="sr-latn-cs"/><LP locale="sv-se"/><LP locale="th-th"/><LP locale="tr-tr"/><LP locale="uk-ua"/><LP locale="zh-cn"/><LP locale="zh-hk"/><LP locale="zh-tw"/></LPAllowedList>
+		<HotfixBlocks Fwlink="http://go.microsoft.com/fwlink/?LinkID=122914">
+			<KB id="983534" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2406705" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="983315" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="979350" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2462487" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2462490" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2462494" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2466115" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2466116" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2466117" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2466119" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2466121" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2466123" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+			<KB id="2466124" minVersion="6.1.1.0" maxVersion="6.1.1.99"/>
+		</HotfixBlocks>
+		<ServerDiskSpaceMaximization sp="1" peakDiskNeutral="414" writtenBlocksNeutral="1449" peakDiskMaxLP="992" writtenBlocksMaxLP="3472" percentWrittenBlocksBuffer="25" percentPeakDiskBuffer="26" vssmetadataoverhead="1500" copywritemultiplier="1500"/><ClientDiskSpaceMaximization sp="1" peakDiskNeutral="654" writtenBlocksNeutral="2289" peakDiskMaxLP="308" writtenBlocksMaxLP="1078" percentWrittenBlocksBuffer="45" percentPeakDiskBuffer="46" vssmetadataoverhead="1500" copywritemultiplier="1500"/></PrerequisiteChecks>
+	<Tasks>
+		<!-- The installer generation script will replace the id attribute with the identity 
+             for all <Install> tasks. The ID attribute must be JUST THE IDENTITY NAME -->
+		<!-- SPCLite needs atleast one node, AND we are using ONLY IDs for SPReview.exe, Parent Data is Dummy as of now -->
+		<Install name="Windows6.1-KB976932-x86.cab" id="Package_for_KB976932~31bf3856ad364e35~x86~~6.1.1.17514" sppackageid="Package_for_KB976933" client="true" server="true" sp="1" type="SP">
+			<Parent id="Microsoft-Windows-Foundation-Package~31bf3856ad364e35~x86~~6.1.7600.16385"/>
+		</Install>
+	</Tasks>
+</SPC>
