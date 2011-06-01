@@ -4,6 +4,7 @@
  * Date: 05.05.11
  * Time: 17:22
  * new version - DOM interface using instead of xml_parser* functions
+ * ! git integration now!
  */
 
 /**
