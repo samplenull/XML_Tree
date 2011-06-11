@@ -7,9 +7,7 @@
  * ! git integration now!
  */
 
-/**
- *  simple class for displaying xml tree with jQuery
- */
+
 class XMLTree {
 
     private $stringBeforeNode;
@@ -36,34 +34,53 @@ class XMLTree {
 
     }
 
+    /**
+     * @return string
+     */
     public function getTree(){
 
         return $this->finalTree;
     }
 
 
-
-
+    /**
+     * @param $afterSequence
+     */
     public function setStringAfterNode($afterSequence) {
         $this->afterSequence = $afterSequence;
     }
 
+    /**
+     * @return string
+     */
     public function getStringAfterNode() {
         return $this->afterSequence;
     }
 
+    /**
+     * @param $beforeSequence
+     */
     public function setStringBeforeNode($beforeSequence) {
         $this->beforeSequence = $beforeSequence;
     }
 
+    /**
+     * @return string
+     */
     public function getStringBeforeNode() {
         return $this->beforeSequence;
     }
 
+    /**
+     *
+     */
     public function __destruct(){
         $this->domdoc;
     }
 
+    /**
+     * @param \DOMNode $element
+     */
     private function parseChildNodes(DOMNode $element)
     {
         for ($i = 0; $i < $element->childNodes->length; $i++) {
@@ -85,11 +102,17 @@ class XMLTree {
 
     }
 
+    /**
+     * @param $showAttributes
+     */
     public function setShowAttributes($showAttributes)
     {
         $this->showAttributes = $showAttributes;
     }
 
+    /**
+     * @return bool
+     */
     public function getShowAttributes()
     {
         return $this->showAttributes;
