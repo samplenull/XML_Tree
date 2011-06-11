@@ -12,17 +12,14 @@ include_once "header.inc";
 include_once "XMLTree.php";
 
 
-//echo $testXML->getTree();
-//echo $testXML->getAfterSequence();
-
-if (!isset($_GET['xmlFilename'])) : ?>
+if (!isset($_FILES['xmlFilename'])) : ?>
 
 <h1>XML Tree constructor - very test version</h1>
-    <br><br>
+   
     
-<form action="index.php" method="GET" enctype="multipart/form-data">
-   <label for="xmlFilename">Choose cool xml file for upload</label>
-    <input type="file" name=xmlFilename id="xmlFilename" accept="text/xml ">
+<form action="index.php" method="POST" enctype="multipart/form-data">
+   <label for="xmlFilename">Choose any xml file for upload</label>
+    <input type="file" name="xmlFilename" id="xmlFilename" accept="text/xml">
     <input type="submit" name="btnUpload" value="UPLOAD and BUILD TREE please!">
 
 </form>
@@ -31,11 +28,12 @@ if (!isset($_GET['xmlFilename'])) : ?>
 <!-- test xml parsing-->
 <?php
 
-if (isset($_GET['xmlFilename'])) {
-    $file = $_GET['xmlFilename'];
+if (isset($_FILES['xmlFilename'])) {
+    $file = $_FILES['xmlFilename']['tmp_name'];
+
     
 // toggle links
-       echo       '<div id="treecontrol">
+       echo  '<div id="treecontrol">
 <a href="#" title="Collapse the entire tree below"><img src="images/minus.gif">Collapse All</a>
 <a href="#" title="Expand the entire tree below">Expand</a>
 <a href="#" title="Toggle the tree below, opening closed branches, closing open branches">Toggle All</a>
@@ -43,24 +41,8 @@ if (isset($_GET['xmlFilename'])) {
     
     echo '<ul id="browser">';
     $testXML = new XMLTree($file);
-
     echo $testXML->getTree();
     echo '</ul>';
-
-
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
 </body></html>

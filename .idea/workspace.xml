@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb56f692-121a-4e19-8bdd-877979711a0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="D:\Web\projects\XML_Tree\XML_Tree\mainstyles.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MOVED" beforePath="D:\Web\projects\XML_Tree\XML_Tree\test xml\spc.xml" afterPath="$PROJECT_DIR$/testdata/spc.xml" />
+      <change type="MOVED" beforePath="D:\Web\projects\XML_Tree\XML_Tree\test xml\test.xml" afterPath="$PROJECT_DIR$/testdata/test.xml" />
+      <change type="MOVED" beforePath="D:\Web\projects\XML_Tree\XML_Tree\test xml\theme.xml" afterPath="$PROJECT_DIR$/testdata/theme.xml" />
     </list>
     <ignored path="XML_Tree.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,17 +30,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="XMLTree.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="XMLTree.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XMLTree.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="261" selection-end="261" vertical-scroll-proportion="0.03722504">
+            <state line="25" column="42" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="test.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test xml/test.xml">
+        <entry file="file://$PROJECT_DIR$/testdata/test.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="10" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
               <folding />
@@ -45,19 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test xml/theme.xml">
+      <file leaf-file-name="theme.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testdata/theme.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="55" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+            <state line="2" column="25" selection-start="95" selection-end="95" vertical-scroll-proportion="0.04916201">
               <folding />
             </state>
           </provider>
@@ -75,7 +69,7 @@
       <file leaf-file-name="header.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+            <state line="13" column="8" selection-start="560" selection-end="560" vertical-scroll-proportion="-9.225806">
               <folding />
             </state>
           </provider>
@@ -99,10 +93,11 @@
         <option value="$PROJECT_DIR$/test.xml" />
         <option value="$PROJECT_DIR$/theme.xml" />
         <option value="$PROJECT_DIR$/header.inc" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/jquery.treeview.js" />
         <option value="$PROJECT_DIR$/XMLTree.php" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/mainstyles.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -167,6 +162,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,21 +183,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
+    <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -298,16 +293,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329455" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19657072" sideWeight="0.3264642" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329455" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33496633" sideWeight="0.670282" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19657072" sideWeight="0.670282" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -386,19 +381,28 @@
         <state line="46" column="11" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test xml/test.xml">
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="35" selection-start="77" selection-end="77" vertical-scroll-proportion="0.04916201" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="8" selection-start="560" selection-end="560" vertical-scroll-proportion="-9.225806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XMLTree.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/test.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="10" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test xml/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="55" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.treeview.js">
@@ -406,23 +410,19 @@
         <state line="159" column="20" selection-start="5355" selection-end="5355" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.inc">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="47" column="14" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.8472222">
+          <folding>
+            <marker date="1307790799194" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1307790799194" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/testdata/theme.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="77" selection-end="77" vertical-scroll-proportion="0.04916201">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XMLTree.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="261" selection-end="261" vertical-scroll-proportion="0.03722504">
+        <state line="2" column="25" selection-start="95" selection-end="95" vertical-scroll-proportion="0.04916201">
           <folding />
         </state>
       </provider>
